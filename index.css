@@ -1,0 +1,197 @@
+*{
+	box-sizing: border-box;
+}
+
+html,body {
+	background: url('https://images.unsplash.com/photo-1487376480913-24046456a727?ixlib=rb-0.3.5&s=a2a87f629d6920c71cb685827db1b67a&auto=format&fit=crop&w=2700&q=80') no-repeat center center fixed;
+	background-size: cover;
+}
+
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+}
+
+#icon {
+	height: 50px;
+	width: 50px;
+}
+
+.healthspan-header {
+	background-color: white;
+	margin-bottom: 20px;
+	display: flex; 
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+#status {
+	display: flex; 
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+	background-color: #ba4857;
+}
+
+fieldset {
+	border: none;
+	margin: 10px 10px;
+	display: flex;
+	margin-bottom: 20px;
+}
+
+
+label {
+	margin-top: 15px;
+	font-size: 18px;
+}
+
+h1 {
+	margin: 0 0 ;
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+h2,p {
+	text-align: center;
+}
+
+p {
+	font-size: 18px;
+}
+
+button {
+	background-color: #ba4857;
+	color: white;
+	height: 50px;
+	cursor: pointer; 
+	font-size: 16px;
+	width: 100%;
+	border: none;
+	border-radius: 3px
+}
+
+button:hover {
+	transition: 0.4s;
+	background-color: #cf5061;
+}
+
+i {
+	font-size: 150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+form {
+	text-align: left;
+}
+
+
+#container {
+	width: 75%;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: white;
+	text-align: center;
+}
+
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	margin: 20px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+
+/*---------------Responsive Design---------------*/
+
+
+@media only screen and (max-width: 600px) {
+    #container {
+        padding: 20px;
+    }
+
+    #status {
+    	width: 100%;
+    }
+
+    form {
+    	padding: 0px;
+    }
+
+    ul {
+    	padding-left: 5px;
+    }
+
+    fieldset {
+    	margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+	.healthspan-header {
+		font-size: 14px;
+	}
+
+	#status {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	#status p {
+		margin: 10px 10px;
+	}
+
+	body {
+		font-size: 14px;
+	}
+  
+    #container {
+        padding: 15px;
+    }
+
+    form {
+    	padding: 5px;
+    }
+
+    ul {
+    	padding-left: 5px;
+    }
+
+    fieldset {
+    	margin: 0 0;
+    	padding: 0;
+    }
+
+    #submit-button {
+    	margin-top: 15px;
+    }
+
+    i {
+	font-size: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
